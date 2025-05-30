@@ -5,7 +5,7 @@ import bookRouter from "./book/book.route";
 dotenv.config();
 
 const app: Application = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5000;
 
 // Basic Middleware for JSON and URL-encoded data
 app.use(express.json());

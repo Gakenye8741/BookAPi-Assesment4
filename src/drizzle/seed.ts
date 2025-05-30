@@ -5,23 +5,18 @@ async function seed() {
   try {
     await db.insert(books).values([
       {
-        title: "Pride and Prejudice",
-        author: "Jane Austen",
-        year: 1813,
+        title: "BLOSSOMS OF THE SAVANNAH",
+        author: "Ole Kaelo",
+        year: 2000,
         genre: "Fiction",
       },
       {
-        title: "1984",
-        author: "George Orwell",
+        title: "The pearl",
+        author: "coyotito",
         year: 1949,
         genre: "Fiction",
       },
-      {
-        title: "Outliers",
-        author: "Malcolm Gladwell",
-        year: 2008,
-        genre: "Non-Fiction",
-      },
+     
     ]);
 
     console.log("✅ Books seeded successfully");

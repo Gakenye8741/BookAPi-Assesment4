@@ -1,12 +1,6 @@
 // src/book/book.route.ts
 import { Router } from "express";
-import {
-  createBook,
-  deleteBook,
-  getBooks,
-  getBookById,
-  updateBook,
-} from "./book.controller";
+import {createBook,  deleteBook,  getBooks,  getBookById,  updateBook} from "./book.controller";
 
 const bookRouter = Router();
 
